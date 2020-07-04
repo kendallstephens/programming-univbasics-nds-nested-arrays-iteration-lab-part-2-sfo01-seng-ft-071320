@@ -3,11 +3,7 @@ def find_min_in_nested_arrays(src)
   row_index = 0
   while row_index < src.count do 
     array_of_daily_temperature.push(src[row_index.min])
-  while element_index < src[row_index].count do
-  end
-  element_index +=1
-  end
-   array_of_daily_temperature << lowest_temp
+
   row_index +=1
  end
  array_of_daily_temperature
